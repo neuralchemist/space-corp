@@ -7,7 +7,7 @@
 ```bash
 # clone project
 git clone https://github.com/neuralchemist/space-corp.git
-# move to root filder
+# move to root folder
 cd space-corp
 # install dependencies
 yarn
@@ -21,7 +21,7 @@ In developing this project, I adhered to industry best practices to ensure effic
 
 My workflow included:
 
-- **Git and GitHub:** Used for verson controll
+- **Git and GitHub:** Used for version control
 
 - **Clean Code and Folder Structure:** Maintaining clean, readable code is paramount. I adopted professional feature based folder structures and naming conventions to enhance code clarity and maintainability.
 
@@ -50,14 +50,14 @@ My workflow included:
 
 - **Dashboard A:** Visualize sensor values using StatBox. Values changes color for positive and negative values. UI can be updated by click of a button. Sensor data is cached.
 
-- **Dashboard B:** Visualize Realtime sensor value using StatBox and Line Charts. Alert appears in backdrop which can't be ignored by user. Automatically reconnect if connection fails.
+- **Dashboard B:** Visualize Real Time sensor value using StatBox and Line Charts. Alert appears in the backdrop which can't be ignored by the user. Automatically reconnect if connection fails.
 
 
 ## Comment on Potential Improvement of API
 
 Implementation depends on use case and scalability. 
 
-- I would suggest implementing with Socket.io in the server instead of pure websockets. `Socket.io` provides many features wich have good performance and reliability in production.
+- I would suggest implementing with Socket.io on the server instead of pure websockets. `Socket.io` provides many features which have good performance and reliability in production.
 - I would suggest version controlled API for maintainability. eg. "api/v1/Spectrum"
 
 
