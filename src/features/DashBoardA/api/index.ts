@@ -1,0 +1,1 @@
+export { useGetSensorData } from './useGetSensorData'

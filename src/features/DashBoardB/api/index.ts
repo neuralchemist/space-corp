@@ -1,0 +1,1 @@
+export { actionOnSpectrum } from "./actionOnSpectrum";
